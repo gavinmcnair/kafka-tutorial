@@ -161,11 +161,11 @@ For a simple partition we can see the partition allocation
 A more complicated partition will look like this
 
 ```
-Topic:account-event	PartitionCount:120	ReplicationFactor:3	Configs:
-	Topic: account-event	Partition: 0	Leader: 2	Replicas: 2,3,1	Isr: 2,3,1
-	Topic: account-event	Partition: 1	Leader: 3	Replicas: 3,1,2	Isr: 2,3,1
-	Topic: account-event	Partition: 2	Leader: 1	Replicas: 1,2,3	Isr: 2,3,1
-	Topic: account-event	Partition: 3	Leader: 2	Replicas: 2,1,3	Isr: 2,3,1
+Topic:some-topic	PartitionCount:120	ReplicationFactor:3	Configs:
+	Topic: some-topic	Partition: 0	Leader: 2	Replicas: 2,3,1	Isr: 2,3,1
+	Topic: some-topic	Partition: 1	Leader: 3	Replicas: 3,1,2	Isr: 2,3,1
+	Topic: some-topic	Partition: 2	Leader: 1	Replicas: 1,2,3	Isr: 2,3,1
+	Topic: some-topic	Partition: 3	Leader: 2	Replicas: 2,1,3	Isr: 2,3,1
 ~~~~~~~~~~~~~~~~ 120 of these.
 ```
 
